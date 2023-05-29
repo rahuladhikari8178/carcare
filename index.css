@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px 5%;
+}
+
+.logo img {
+    width: 60px;
+    margin-left: 30px;
+}
+
+.search-box{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.pic-1 img{
+    display: flex;
+    width: 100% ;
+    height: 500px;
+    padding: 20px 0;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    }
+
+.pic-2 img{
+    display: block;
+    width: 120%;
+    height: 200px;
+}
+.pic-3 img{
+    display: block;
+    width: 120%;
+}
+.pic-4 img{
+    display: block;
+    width: 120%;
+}
+.end{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1{
+    width: 30%;
+}
+
+ .box2 {
+     width: 30%;
+ } 
+
+  .box3{
+    width: 30%;
+ }
+ div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+ }
+
+ input{
+    border-radius: 5px;
+    border: 1px solid black;
+ }
+
+
